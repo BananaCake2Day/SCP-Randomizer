@@ -58,9 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventType.cs" />
+    <Compile Include="CoreEventModules.cs" />
     <Compile Include="MainPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomEventAttribute.cs" />
+    <Compile Include="RandomRoutine.cs" />
     <Compile Include="RoundHandler.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

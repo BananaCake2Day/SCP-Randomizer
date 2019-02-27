@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 [Flags]
-enum EventType : byte
+public enum EventType : byte
 {
     None = 0,
     InventoryEvent = 1,

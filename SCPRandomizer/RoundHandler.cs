@@ -23,6 +23,6 @@ class RoundHandler : IEventHandlerRoundEnd, IEventHandlerRoundStart
     public void OnRoundStart(RoundStartEvent ev)
     {
         plugin.roundStatus = true;
-        plugin.RunNextEvent();
+        plugin.StartEventCycle();
     }
 }
