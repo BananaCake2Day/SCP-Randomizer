@@ -44,7 +44,8 @@ public class MainPlugin : Plugin
         RegisterModule(typeof(RoleChangeEvents));
         RegisterModule(typeof(SpawnEvents));
 
-        Info("Plugin " + this.Details.name + " has initialized");
+        Info("Plugin " + this.Details.name +  " has initialized");
+        Info(ducktales + " cool video");
     }
 
     public override void Register()
